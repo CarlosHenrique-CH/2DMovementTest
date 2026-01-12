@@ -7,7 +7,7 @@ int main() {
 	SetTargetFPS(windowConfig::fps);
 	// -- Initializes and configures the target FPS for the window
 
-	Player p; // -- Instantiation of player object to easier access to attributes/methods
+	Player p; // -- Instantiation of player object for easier access to attributes/methods
 
 	while (!WindowShouldClose()) {
 		p.update(); // -- Updates the player's input during every frame
